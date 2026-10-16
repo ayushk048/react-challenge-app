@@ -3,6 +3,6 @@ import App from './App';
 
 test('renders welcome message', () => {
   render(<App />);
-  const welcome = screen.getByText('Welcome to the Tandem Code Challenge');
+  const welcome = screen.getByText('Welcome to the react Code Challenge');
   expect(welcome).toBeInTheDocument();
 });
